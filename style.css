@@ -19,7 +19,6 @@ body{
 .webpage_content{
     padding: 40px 40px 0px;
 }
-
 h2.webpage_title_m {
     font-size: 26px;
     text-align: center;
@@ -244,6 +243,8 @@ button.update_btn {
     color: #fff;
     border-radius: 5px;
     margin-bottom: 20px;
+    -webkit-transition: 0.4s all;
+    -o-transition: 0.4s all;
     transition: 0.4s all;
     cursor: pointer;
 }
@@ -413,6 +414,8 @@ button.btn.continue-btn {
     font-weight: 600;
     color: #fff;
     letter-spacing: 0.3px;
+    -webkit-transition: 0.4s all;
+    -o-transition: 0.4s all;
     transition: 0.4s all;
     cursor: pointer;
 }
@@ -722,5 +725,26 @@ button.btn.continue-btn:hover{
 
     h1.webpage_title_xl {
         font-size: 22px;
+    }
+}
+@media screen and (max-width: 390px) {
+    h2.heading_3 {
+        font-size: 16px;
+    }
+
+    h1.webpage_title_xxl {
+        font-size: 30px;
+    }
+
+    h2.heading_4 {
+        font-size: 16px;
+    }
+
+    h4.heading_4 {
+        font-size: 16px;
+    }
+
+    h1.webpage_title_xl {
+        font-size: 19px;
     }
 }
