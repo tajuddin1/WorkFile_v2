@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    max-width: 800px;
+    max-width: 825px;
     margin: auto;
 }
 
@@ -148,7 +148,7 @@ span.small_text {
 }
 
 .col-half ul li p{
-    font-size: 14px;
+    font-size: 16px;
     margin-right: 10px;
     font-weight: 700;
 }
@@ -519,7 +519,21 @@ button.btn.continue-btn:hover{
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 830px) {
+    h2.heading_3 {
+        font-size: 22px;
+    }
+
+    h2.heading_4 {
+        font-size: 26px;
+    }
+}
 @media screen and (max-width: 768px) {
+
+    h2.heading_4 {
+        font-size: 24px;
+    }
     
     h2.webpage_title_m {
         font-size: 22px;
@@ -554,7 +568,7 @@ button.btn.continue-btn:hover{
     }
 
     .col-half ul li p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .paragrap_text br{
@@ -612,6 +626,10 @@ button.btn.continue-btn:hover{
 }
 
 @media screen and (max-width: 590px) {
+
+    h2.heading_4 {
+        font-size: 22px;
+    }
     .webpage_content {
         padding: 30px;
     }
@@ -651,9 +669,6 @@ button.btn.continue-btn:hover{
         margin: 0px 0px 20px;
     }
 
-    .col-half ul li p {
-        font-size: 14px;
-    }
     .footer {
         display: block;
     }
@@ -685,5 +700,27 @@ button.btn.continue-btn:hover{
 
     h2.heading_3 {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    h2.heading_3 {
+        font-size: 18px;
+    }
+
+    h1.webpage_title_xxl {
+        font-size: 38px;
+    }
+
+    h2.heading_4 {
+        font-size: 18px;
+    }
+
+    h4.heading_4 {
+        font-size: 18px;
+    }
+
+    h1.webpage_title_xl {
+        font-size: 22px;
     }
 }
